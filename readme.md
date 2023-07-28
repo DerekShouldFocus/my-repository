@@ -62,4 +62,4 @@ Note: IT CAN BE USED TO SORT AND CLASSIFY FRUITS, WHICH IS IMPORTANT IN AN ENVIR
 5. Then run this code -$ ./docker/run.sh --volume /home/(username)/fruits:/fruits        - the code moves the fruits folder into the docker container so that the line from PIL import Image runs without an error.
 6. Upload images by dragging them to the test folder and then running the command "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[ your upload name].jpg [analysis file name].jpg
 
-[View a video explanation here](video link)
+[[View a video explanation here](https://www.youtube.com/watch?v=XHgZ3FAckRo)
